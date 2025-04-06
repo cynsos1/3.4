@@ -1,0 +1,5 @@
+<label for="messageInput">Message to Display:</label>
+<input [(ngModel)]="message" id="messageInput" placeholder="Enter your message here" />
+<button (click)="displayMessage()">Display Message</button>
+
+<h2>{{ displayedMessage }}</h2>
